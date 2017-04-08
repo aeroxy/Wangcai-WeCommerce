@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper bindchange="listenSwiper" current="currentPage">
+    <block wx:key="" wx:for="{{items}}">
+      <swiper-item class="card">
+        <view class="card_content" style="transform:translate({{item.x}}%,0%) scale({{item.s}});opacity:{{item.o}}">
+          <view style="background-image:url({{item.url}})" class="slide-image"/>
+          <view class="title">
+            <text>极地牛奶</text>
+          </view>
+          <view class="description">
+            <text>采用鸡蛋、小麦粉等主要精选原料制成</text>
+          </view>
+          <view class="item-btn">
+            <text>查看详情</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
