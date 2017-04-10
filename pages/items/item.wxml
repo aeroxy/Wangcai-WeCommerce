@@ -1,0 +1,10 @@
+<!--detail.wxml-->
+<view class="container">
+  <swiper>
+    <block wx:key="" wx:for="{{main_pics}}">
+      <swiper-item class="main_pic">
+        <view style="background-image:url({{item.url}})" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

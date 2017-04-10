@@ -71,6 +71,9 @@ Page({
   },
   tapItem: function(e){
     console.log(e.currentTarget.dataset.id);
+    wx.navigateTo({
+      url: '../items/item?id='+e.currentTarget.dataset.id
+    });
   }
   // onLoad: function () {
   //   var appdata = this

@@ -1,6 +1,10 @@
 {
   "name": "极地牛乳",
-  "main_pic": "/img/item_01.jpg",
+  "main_pics": [
+    "/img/item_01.jpg",
+    "/img/item_02.jpg",
+    "/img/item_03.jpg"
+  ],
   "price": 48.8,
   "description": "采用鸡蛋、小麦粉等主要精选原材料制成。采用鸡蛋、小麦粉等主要精选原材料制成。采用鸡蛋、小麦粉等主要精选原材料制成。",
   "discount": true,

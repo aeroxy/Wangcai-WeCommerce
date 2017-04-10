@@ -1,0 +1,63 @@
+/**index.wxss**/
+.container {
+  background: #f6f6f6;
+}
+
+.cards {
+  width: 700rpx;
+  height: 800rpx;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+swiper {
+  width: 750rpx;
+  height: 100%;
+}
+
+swiper-item.card {
+  overflow: visible;
+}
+
+.card_content {
+  border-radius: 40rpx;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 86%;
+  height: 90%;
+  margin: 7%;
+  transition: 0.2s;
+  background-color: #FFF;
+}
+
+.slide-image {
+  border-radius: 40rpx 40rpx 0 0;
+  width: 100%;
+  height: 75.5%;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  margin: 25rpx 30rpx 0rpx 30rpx;
+  color: #4c4c4c;
+  font-size: 40rpx;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.description {
+  margin: 10rpx 20rpx 25rpx 30rpx;
+  color: #999;
+  font-size: 28rpx;
+  font-weight: 300;
+  white-space: nowrap;
+}
+.item-btn {
+  color: #edaa00;
+  text-align: center;
+  width: 100%;
+  border-top: solid 1px #ebebeb;
+  padding: 20rpx 0;
+  font-weight: 300;
+}
