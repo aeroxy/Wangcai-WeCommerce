@@ -11,7 +11,7 @@
           <view class="description">
             <text>采用鸡蛋、小麦粉等主要精选原料制成</text>
           </view>
-          <view class="item-btn">
+          <view class="item-btn" bindtap="tapItem" data-id="{{item.id}}">
             <text>查看详情</text>
           </view>
         </view>

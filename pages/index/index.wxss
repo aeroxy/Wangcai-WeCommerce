@@ -13,7 +13,7 @@
 
 swiper {
   width: 750rpx;
-  height: 90%;
+  height: 100%;
 }
 
 swiper-item.card {
@@ -33,7 +33,7 @@ swiper-item.card {
 .slide-image {
   border-radius: 40rpx 40rpx 0 0;
   width: 100%;
-  height: 75%;
+  height: 75.5%;
   background-size: cover;
   background-position: center;
 }
