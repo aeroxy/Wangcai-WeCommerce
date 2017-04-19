@@ -3,8 +3,22 @@
   <swiper>
     <block wx:key="" wx:for="{{main_pics}}">
       <swiper-item class="main_pic">
-        <view style="background-image:url({{item.url}})" class="slide-image"/>
+        <view style="background-image:url({{item}})" class="slide-image"/>
       </swiper-item>
     </block>
+    <view id="item_bar">
+      <view id="price"><text>¥</text><text id="price_text">{{price}}</text></view>
+      <view><text>{{discount_bar}}</text></view>
+      <view><text>{{creditbuy_bar}}</text></view>
+    </view>
   </swiper>
+  <view>
+    <text>{{name}}</text>
+    <text>{{description}}</text>
+    <text>满{{discount[0]}}减{{discount[1]}}</text>
+    <text>{{credit_buy[0]}}积分抵扣{{credit_buy[1]}}元</text>
+  </view>
+  <view>
+    <text>商品详情</text>
+  </view>
 </view>

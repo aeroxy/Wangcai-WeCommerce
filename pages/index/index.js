@@ -73,14 +73,11 @@ Page({
     console.log(e.currentTarget.dataset.id);
     wx.navigateTo({
       url: '../items/item?id='+e.currentTarget.dataset.id
-    });
+    })
+  },
+  onLoad: function(){
+    wx.setNavigationBarTitle({
+      title: '首页'
+    })
   }
-  // onLoad: function () {
-  //   var appdata = this
-  //   app.getUserInfo(function(userInfo){
-  //     appdata.setData({
-  //       userInfo:userInfo
-  //     })
-  //   })
-  // }
 })
